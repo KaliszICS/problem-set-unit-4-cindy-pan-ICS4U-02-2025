@@ -179,10 +179,11 @@ class Player {
             outter = outter + (this.hand[i]).toString() + ", ";
         }
     
-        return outter.substring(0, (outter.length())-2);
+        outter =  outter.substring(0, (outter.length())-2);
+        return outter+".";
         } 
         catch (Exception e) {
-           return this.name+" ,"+this.age;
+           return this.name+" ,"+this.age+".";
         }
     }
 }

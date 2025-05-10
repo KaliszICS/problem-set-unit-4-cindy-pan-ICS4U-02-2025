@@ -140,7 +140,8 @@ class DiscardPile {
             outter = outter + (this.pile[i]).toString() + ", ";
         }
     
-        return outter.substring(1,(outter.length()-2));
+        outter = outter.substring(1,(outter.length()-2));
+        return outter+".";
         // i am too lazy to cover the last case where the last card has one extra space
         // substring it is!!!!!!!!!!
 

@@ -18,7 +18,7 @@ class Deck{
      * @param newDeck the deck of cards
      */
     public Deck(Card[] newDeck){
-        this.deck = newDeck;
+        this.deck = newDeck.clone();
     }
 
 

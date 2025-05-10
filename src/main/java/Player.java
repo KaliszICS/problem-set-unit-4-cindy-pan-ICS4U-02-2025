@@ -120,7 +120,7 @@ class Player {
                         }
                     }
                     // :)
-
+                    this.hand = temp;
                     return true;
                 }
             }
@@ -153,7 +153,7 @@ class Player {
                             temp[j] = this.hand[j+1];
                         }
                     }
-
+                    this.hand = temp;
                     return true;
 
                 }

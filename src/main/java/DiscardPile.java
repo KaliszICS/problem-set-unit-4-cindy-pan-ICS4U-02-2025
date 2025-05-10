@@ -96,6 +96,7 @@ class DiscardPile {
                             temp[j] = this.pile[j+1];
                         }
                     }
+                     this.pile = temp;
                      return this.pile[i];
             }
         }
@@ -131,9 +132,7 @@ class DiscardPile {
     * or to say it encounters a null in the array
     * @return the entire array of cards as a String
     */
-
     public String toString(){
-       
         try { //try catching this to walk around null pointer exception 
               String outter = " ";
         for (int i = 0 ; i<this.pile.length; i++){

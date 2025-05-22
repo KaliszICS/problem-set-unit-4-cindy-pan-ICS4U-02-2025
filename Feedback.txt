@@ -1,0 +1,14 @@
+K(30%): 100
+I(30%): 82
+C(10%): 100
+A(30%): 96
+93.4%
+Card equals method can just return the boolean isntead of using an if.
+Should use a ArrayList over an array internally to simplify coding and editing
+Simply your code by using the methods you've already created.
+AddCard can be used to create your deck, and to do reshuffle.
+Shuffle can be used in reshuffle instead of writing the same code again.
+removeCard in DiscardPile return a card from pile at i, even though you just removed that card.
+removeAll should reduce your discardPile to being empty, not fill it with nulls.
+toString should be formatted correctly.
+Player draw should ensure the value it receives is not null.
